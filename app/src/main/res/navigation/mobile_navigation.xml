@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_myaccount"
+        android:name="com.xploreict.blooddonation.ui.MyAccount.MyAccountFragment"
+        android:label="@string/menu_myaccount"
+        tools:layout="@layout/my_account_fragment" />
+    <fragment
+        android:id="@+id/nav_showrequest"
+        android:name="com.xploreict.blooddonation.ui.ShowRequest.ShowRequestFragment"
+        android:label="@string/menu_showrequest"
+        tools:layout="@layout/fragment_showrequest" />
+    <fragment
+        android:id="@+id/nav_bloodrequest"
+        android:name="com.xploreict.blooddonation.ui.BloodRequest.BloodRequestFragment"
+        android:label="@string/menu_bloodrequest"
+        tools:layout="@layout/fragment_bloodrequest" />
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.xploreict.blooddonation.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+</navigation>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_bloodrequest"
+            android:icon="@drawable/ic_baseline_add_circle_24_white"
+            android:title="@string/menu_bloodrequest" />
+        <item
+            android:id="@+id/nav_showrequest"
+            android:icon="@drawable/ic_baseline_preview_24"
+            android:title="@string/menu_showrequest" />
+        <item
+            android:id="@+id/nav_myaccount"
+            android:icon="@drawable/ic_baseline_account_box_24"
+            android:title="@string/menu_myaccount" />
+    </group>
+</menu>
